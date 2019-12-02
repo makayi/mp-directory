@@ -1,12 +1,12 @@
 import React from 'react';
-import { Hits, Pagination } from 'react-instantsearch-dom';
+import { Pagination } from 'react-instantsearch-dom';
 import Header from './Header';
-import Hit from './Hit';
+import Test from './Test'
 
 const Content = () => (
   <main className="content">
     <Header />
-    <Hits hitComponent={Hit} />
+    <Test />
     <Pagination />
   </main>
 );
